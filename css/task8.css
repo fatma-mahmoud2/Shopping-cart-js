@@ -1,0 +1,123 @@
+body{
+    height: 1900px;
+}
+h2{
+    margin-top: 50px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px gray;
+    font-weight: 900px;
+}
+.line{
+    margin: auto;
+    width: 70px;
+    height: 2px;
+    background-color: gray;
+    transition: .5s;
+    
+}
+.cart-container{
+    float:right;
+}
+.ii:hover .line{
+    width: 100px;
+    transition: .5s;
+}
+.one{
+    margin-top: 100px;
+}
+.two{ 
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+     
+}
+.col-sm-3{
+    
+    text-align: center;
+    height: 370px;
+    transition: .3s;
+    
+}
+.col-sm-3:hover {
+    box-shadow: 1px  1px  5px 5px rgb(100, 213, 216);
+    transform: scale(1.1,1.1);
+    transition: .2s;
+}
+.img{
+    position: relative;
+}
+.overlay{
+    background-image: url(../imges/ch1.1.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 250px;
+    min-width: 200px;
+    transform: rotateY(90deg);
+    transform: scale(0);
+    transition: .1s;
+    margin-left: 39px
+}
+.t{
+    background-image: url(../imges/ch2.2.png);  
+}
+/* .th{
+    background-image: url(../imges/ch3.png);
+} */
+.oo:hover .overlay{
+    transform: scale(1);
+    transition: .2s;
+}
+.info i{
+       font-size: 20px;
+       color:rgb(142, 137, 137);
+}
+
+.info i:hover{
+    color: rgb(100, 213, 216);
+}
+.info p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    opacity: .7;
+    
+}
+h5{
+    color: rgb(100, 213, 216);
+    font-size: 22;
+}
+.btn,.btn1{
+    margin-left: 15px;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    border: black .5px solid;
+}
+.btn1{
+    margin-left: 700px;
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(91, 197, 201);
+    border: rgb(91, 197, 201) .5px solid;
+}
+
+.pp{
+    width: 350px;
+    height: 250px;
+    border-radius: 1px black solid;
+    background-color:rgb(100, 213, 216);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    
+}
+
